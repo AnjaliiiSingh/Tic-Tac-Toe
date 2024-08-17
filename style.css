@@ -1,0 +1,77 @@
+* { margin: 0;
+    padding: 0;}
+  
+  body {
+    text-align: center;
+    background: url(ticTacToe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    height: 70%;
+    /* here 70 view hieght means the size of 70vh of original page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b73e3a;
+    background-color: #ffffc7;
+  }
+  
+  #Restart-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  /* msg of container will be hide until we didn't want in js  */
+   .hide {   
+    display: none;
+  }
+  h1{
+    color: #f4f497;
+  }
